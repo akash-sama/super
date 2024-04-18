@@ -35,7 +35,28 @@ h1, h2, h3, blockquote {
   font-weight: 700;
   font-style: normal;
 }
+ h4 {
+        font-size: 48px;
+        color: #0a0a0a;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(45deg, #6a82fb, #fc5c7d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-bottom: 3px solid #6a82fb;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+    h5 {
+      font-size: 20px;
+      color: #0a0a0a;
+      text-transform: uppercase;
+      background: -webkit-linear-gradient(45deg, #6a82fb, #fc5c7d);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding-bottom: 10px;
 
+      margin: 0;
+  }
 canvas {
   position: fixed;
   top: 0;
